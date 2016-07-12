@@ -51,7 +51,6 @@
 	position: relative;
 	background-position: center center;
 	z-index: 2;
-	overflow: hidden;
 }
 
 .ls-loading-container {
