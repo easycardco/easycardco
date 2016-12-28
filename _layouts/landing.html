@@ -659,17 +659,48 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     <ul class="list-unstyled">
                         <!--li><i class="fa fa-home"></i> 5B Streat, City 50987 New Town US</li-->
                         <li><i class="fa fa-phone"></i> +57 (300) 2433927</li>
-                        <li><i class="fa fa-envelope"></i> <a href="info@example.com">info@easycard.com.co</a></li>
+                        <li><i class="fa fa-envelope"></i> <a href="info@easycard.com">
+                        info@easycard.com.co</a></li>
+                        <li><i class="fa fa-globe"></i> <a href="http://easycard.com.co">www.easycard.com.co</a></li>
+                        <li><i class="fa fa-home"></i> Bogotá, Colombia</li>
                     </ul>
                 </div>
 
                 <div class="col-md-6">
-                    <ul class="list-unstyled">
-                        <!--li><i class="fa fa-home"></i> 5B Streat, City 50987 New Town US</li-->
-                        <li><i class="fa fa-globe"></i> <a href="http://easycard.com.co">www.easycard.com.co</a></li>
-                        <li><i class="fa fa-home"></i> Bogotá, Colombia</li>
-                        </li>
-                    </ul>
+                    <form method="POST" action="http://formspree.io/ivan.rodriguez5@upr.edu" id="sky-form3" class="sky-form contact-style">
+                    <fieldset>
+                            <label>Nombre</label>
+                            <div class="row">
+                                <div class="col-md-7 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <label>Email <span class="color-red">*</span></label>
+                            <div class="row">
+                                <div class="col-md-7 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <input type="text" name="email" id="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Mensaje</label>
+                            <div class="row">
+                                <div class="col-md-11 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <textarea rows="8" name="message" id="message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p><button type="submit" class="btn-u btn-brd btn-brd-hover btn-u-dark">Enviar Mensaje</button></p>
+                        </fieldset>
+
+                   
+                    </form>
+
                     <!--form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
                         <fieldset>
                             <label>Nombre</label>
